@@ -1,4 +1,4 @@
-https://app.circleci.com/pipelines/github/raghavendrak89/udacity_proj/1/workflows/3d652568-e452-4d37-9a69-69d8ad020ccf
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/raghavendrak89/udacity_proj?branch=circleci-project-setup)
 
 ## Project Overview
 
