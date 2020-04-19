@@ -25,11 +25,9 @@ Your project goal is to operationalize this working, machine learning microservi
 ```
 
 * Complete a Dockerfile to containerize this application
-  Done
+
 * Deploy your containerized application using Docker and make a prediction
-  ```
-    Docker image: docker pull raghavendrak/udacity_devops:latest
-  ```
+
 * Improve the log statements in the source code for this application
 
 * Configure Kubernetes and create a Kubernetes cluster
@@ -60,6 +58,9 @@ upload_docker.sh                    # Bash script to upload Docker image to git 
 output_txt_files
 ├── docker_out.txt
 └── kubernetes_out.txt
+
+## Docker image:
+docker pull raghavendrak/udacity_devops:latest
 
 ---
 
