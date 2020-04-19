@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/raghavendrak89/udacity_proj?branch=circleci-project-setup)
+[![CircleCI](https://circleci.com/gh/raghavendrak89/udacity_proj.svg?style=svg)](https://circleci.com/gh/raghavendrak89/udacity_proj)
 
 ## Project Overview
 
