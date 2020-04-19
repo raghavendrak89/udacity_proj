@@ -6,8 +6,8 @@ This is a lab project for what I have learnt so far with the Microservices as Sc
 
 ### Project Tasks
 
-Your project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
-* Test your project code using linting
+I have operationalised the deployment of machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project I have:
+* Tested the project code using linting
   ```#!/bin/bash -eo pipefail
     . venv/bin/activate
       make lint
@@ -24,17 +24,12 @@ Your project goal is to operationalize this working, machine learning microservi
       CircleCI received exit code 0
 ```
 
-* Complete a Dockerfile to containerize this application
-
-* Deploy your containerized application using Docker and make a prediction
-
-* Improve the log statements in the source code for this application
-
-* Configure Kubernetes and create a Kubernetes cluster
-
-* Deploy a container using Kubernetes and make a prediction
-
-* Upload a complete Github repo with CircleCI to indicate that your code has been tested
+* Completed a Dockerfile to containerize the application
+* Deployed the containerized application using Docker and made prediction
+* Improved the log statements in the source code for the application
+* Configured Kubernetes and created a Kubernetes cluster
+* Deployed a container using Kubernetes and made predictions
+* Uploaded a complete Github repo to CircleCI and have tested the same. CircleCI status badge is updated with the repo
 
 
 
@@ -53,27 +48,21 @@ run_docker.sh                       # Bash script to build docker image and exec
 run_kubernetes.sh                   # Bash script to create kuberenete deployment
 upload_docker.sh                    # Bash script to upload Docker image to git repo
 
-## Output files
-
-output_txt_files
-├── docker_out.txt
-└── kubernetes_out.txt
-
-## Docker image:
-docker pull raghavendrak/udacity_devops:latest
 
 ---
 
 ## Setup the Environment
 
-* Create a virtualenv and activate it
-* Run `make install` to install the necessary dependencies
+* Created a virtualenv and activated it
+* Executed `make install` to install the necessary dependencies
 
 ### Running `app.py`
 
-1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+1. Standalone:                  `python app.py`
+2. Executed Docker:             `./run_docker.sh`
+3. Uploaded the Docker image:   `./upload_docker.sh`  
+3. Run in Kubernetes:           `./run_kubernetes.sh`
+
 
 ### Kubernetes Steps
 
@@ -81,3 +70,12 @@ docker pull raghavendrak/udacity_devops:latest
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Output files
+
+output_txt_files
+├── docker_out.txt
+└── kubernetes_out.txt
+
+### Docker image:
+docker pull raghavendrak/udacity_devops:latest
