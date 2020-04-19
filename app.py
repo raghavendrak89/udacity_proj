@@ -2,7 +2,6 @@
 import logging
 import os
 from flask import Flask, request, jsonify
-from flask.logging import create_logger
 
 import pandas as pd
 from os.path import basename
