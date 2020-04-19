@@ -19,7 +19,7 @@ COPY requirements.txt /home/devops
 RUN pip install -r requirements.txt
 
 ## Step 4:
-Expose 80 8000
+Expose 80
 
 ## Step 5:
 CMD ["/usr/local/bin/python", "app.py"]
